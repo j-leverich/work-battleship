@@ -20,6 +20,9 @@
         color: #81B32C;
         font-size: 2em;
       }
+        div#messageArea span {
+          font-size: .5em;
+        }
       
       table {
         color: white;
