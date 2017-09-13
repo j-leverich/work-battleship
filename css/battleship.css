@@ -1,0 +1,82 @@
+ body {
+        background-color: black;
+        font-family: 'Fjalla One', sans-serif;
+        color: #81B32C;
+      }
+      
+      div#board {
+        position: relative;
+        width: 725px;
+        height: 563px;
+        margin: auto;
+        background: url("../images/board.jpg") no-repeat;
+        background-size:contain;
+      }
+      
+      div#messageArea {
+        position: absolute;
+        top: 26px;
+        left: 10px;
+        color: #81B32C;
+        font-size: 2em;
+      }
+      
+      table {
+        color: white;
+        width: 443px;
+        height: 443px;
+        position: relative;
+        top: 63px;
+        left: 111px;
+      }
+      
+      td:hover {
+        cursor: crosshair;
+      }
+      
+      form {
+        position: absolute;
+        bottom: -90px;
+        right: 10px;
+        padding: 15px;
+        background-color: #000;
+        border: #1B2907 3px solid;
+      }
+      
+      form input {
+        background-color: #000;
+        border: #1B2907 1px solid;
+        font-size: 1.5em;
+        color: #81B32C;
+        padding: 15px;
+      }
+      
+      input[placeholder] {
+        font-family: 'Fjalla One', sans-serif;
+        color: #81B32C !important;
+      }
+      
+      input[value] {
+        font-family: 'Fjalla One', sans-serif;
+        color: #81B32C !important;
+        padding: 15px;
+        margin-left: 15px;
+      }
+      
+      input[value]:hover {
+        background-color: firebrick;
+      }
+      
+      .hit {
+        background: url("../images/ship.png") no-repeat center center;
+        background-size: 60%;
+      }
+      
+      .miss {
+        background: url("../images/miss.png") no-repeat center center;
+        background-size: 60%;
+      }
+      
+      .none {
+        display: none;
+      }
